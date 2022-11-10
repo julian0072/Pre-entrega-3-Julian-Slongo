@@ -5,7 +5,7 @@
 }
 
 .parrafoHome {
-  font-size: 25px;
+  @include parrafos;
 }
 
 .mainImage {
