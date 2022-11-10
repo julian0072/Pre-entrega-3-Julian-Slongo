@@ -1,0 +1,31 @@
+/*Gallery*/
+
+.titleGallery {
+  font-size: 75px;
+
+  .textGallery {
+    font-size: 30px;
+  }
+}
+
+.imageGallery {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  margin-left: 200px;
+
+  .imgGallery {
+    width: 300px;
+    height: 300px;
+  }
+
+  .imgGalleryTop {
+    width: 500px;
+    height: 700px;
+  }
+
+  .card-img-top {
+    width: 300px;
+    height: 300px;
+  }
+}

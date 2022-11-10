@@ -1,0 +1,10 @@
+/*Join Us on IG*/
+
+.joinUs {
+  width: 200px;
+  height: 200px;
+
+  &:hover {
+    transform: scale(1.2);
+  }
+}
