@@ -1,2 +1,28 @@
-@import "generales", "variables", "buttons", "header", "home", "chooseus",
-  "mixin", "joinus", "howitworks", "gallery", "footer";
+@import "variables", "home", "chooseus", "mixin", "joinus", "gallery", "footer";
+
+/*Generales*/
+* {
+  padding: 0;
+  margin: 0;
+
+  li {
+    list-style: none;
+  }
+}
+
+/*Buttons*/
+
+.button {
+  display: flex;
+  justify-content: center;
+}
+
+.buttonFollow {
+  width: 200px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.howItWorks {
+  background-color: $how-it-works;
+}
