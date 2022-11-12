@@ -1,4 +1,4 @@
-@import "variables", "home", "chooseus", "joinus", "gallery", "footer";
+@import "variables", "home", "chooseus", "joinus", "gallery", "footer", "mixin";
 
 /*Generales*/
 * {
@@ -6,7 +6,7 @@
   margin: 0;
 
   li {
-    list-style: none;
+    @include anclas;
   }
 }
 

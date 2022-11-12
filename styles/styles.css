@@ -88,6 +88,7 @@ footer .footerLogo:hover {
 }
 * li {
   list-style: none;
+  font-size: 25px;
 }
 
 /*Buttons*/
